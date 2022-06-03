@@ -1,11 +1,7 @@
 #include <stdio.h>
 /**
-*main - prints a string
-*
-* Description: prints a string
-* 
-*Return: 0
-*
+*main - Entry point
+*Return: Always 0 (Success)
 */
 int main(void)
 {
