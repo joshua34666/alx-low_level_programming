@@ -1,15 +1,12 @@
 #include <stdio.h>
-
 /**
- *
- *  * main - Entry point
- *
- *   *
- *
- *    * Return: Always 0 (Success)
- *
- *     */
-
+*main - prints a string
+*
+* Description: prints a string
+* 
+*Return: 0
+*
+*/
 int main(void)
 {
 		puts("\"Programming is like building a multilingual puzzle");
