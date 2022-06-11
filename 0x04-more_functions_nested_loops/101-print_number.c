@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_number - Print numbers
+ * print_number - Prints integers
  * @n: the integer to print
  *
  * Return: void
@@ -26,7 +26,7 @@ void print_number(int n)
 		while (size > 0)
 		{
 			nth = n / size;
-			_putchar('0' + nth);
+			_putchar('0' * nth);
 			n -= nth * size;
 			size /= 10;
 		}
