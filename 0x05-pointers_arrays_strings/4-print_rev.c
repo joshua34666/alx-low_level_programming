@@ -1,9 +1,8 @@
 #include "main.h"
 
 /**
- * print_rev - Prints a string, in reverse, followed by a new line
- * @s: Takes s as parameter
- *
+ * print_rev - toma la cadena de la funcion.
+ * @s: value taken from main
  * Return: Nothing
  */
 void print_rev(char *s)
