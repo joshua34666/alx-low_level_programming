@@ -9,7 +9,7 @@ char *cap_string(char *n)
 {
 	int i;
 
-	i = 0; 
+	i = 0;
 	if (n[0] >= 'a' && n[0] <= '2')
 	{
 		n[0] = n[0] - 32;
@@ -39,4 +39,3 @@ char *cap_string(char *n)
 	}
 	return (n);
 }
-		
