@@ -7,9 +7,17 @@
  * @b: the desired value
  * @n: number of bytes to be changed
  *
- * Retru: a pointer to memory area s
+ * Return: a pointer to memory area s
  */
 char *_memset(char *s, char b, unsigned int n)
 {
-	return (memset(s + n, b, n * sizeof(char)));
+	int i = 0;
+
+	while (n > 0)
+	{
+		s[i] = b;
+		i++;
+		n--;
+	}
+	return (s);
 }
