@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * sqrt_recursion = computes square root recursively doing binary search
+ * sqtRecursive - computes square root recursively doing binary search
  * @start: initial number
  * @end: last number within the limit of number
  * @n: given number
