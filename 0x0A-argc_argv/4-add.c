@@ -15,16 +15,16 @@ int main(int argc, char **argv)
 	{
 		for (b = 0; (argv[a])[b] != '\0'; b += 1)
 		{
-			if (((argv[a])[b] - '0' >= 0 && ((argv[a])[b] - '0') <= 9))
-					continue;
-					else
-					{
-					printf("Error\n");
-					return (1);
-					}
+			if (((argv[a])[b] - '0') >= 0 && ((argv[a])[b] - '0') <= 9)
+				continue;
+			else
+			{
+				printf("Error\n");
+				return (1);
+			}
 		}
-					result += atoi(argv[a]);
+		result += atoi(argv[a]);
 	}
-					printf("%d\n", result);
-					return (0);
+	printf("%d\n", result);
+	return (0);
 }
