@@ -15,7 +15,7 @@ int main(int argc, char **argv)
 	{
 		for (b = 0; (argv[a])[b] != '\0'; b += 1)
 		{
-			if (((argv[a])[b] - '0' >= 0 && ((argv[a])[b] - '0') <= 9)
+			if (((argv[a])[b] - '0' >= 0 && ((argv[a])[b] - '0') <= 9))
 					continue;
 					else
 					{
