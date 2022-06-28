@@ -7,7 +7,7 @@
  *
  * Return: pointer to array or null
  */
-cahr *_strdup(char *str)
+char *_strdup(char *str)
 {
 	char *strDup;
 	int i, j;
@@ -18,7 +18,7 @@ cahr *_strdup(char *str)
 	while (str[i] != '\0')
 		i++;
 	i++;
-	stdDup = malloc(sizeof(*str);
+	strDup = malloc(sizeof(*str));
 			if (strDup == NULL)
 			return (NULL);
 			j = 0;
