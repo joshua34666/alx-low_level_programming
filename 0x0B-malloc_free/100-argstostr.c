@@ -8,7 +8,6 @@
  *
  * Return: array
  */
-
 char *argstostr(int ac, char **av)
 {
 	char *new_str;
@@ -39,6 +38,6 @@ char *argstostr(int ac, char **av)
 		new_str[k] = '\n';
 		k++;
 	}
-	new_str[k] = '\n';
+	new_str[k] = '\0';
 	return (new_str);
 }
