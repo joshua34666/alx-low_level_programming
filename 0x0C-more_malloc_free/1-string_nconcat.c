@@ -8,7 +8,7 @@
  *
  * Return: pointer to the new space in memory or null
  */
-char *string_nconcat(char *s1, char *s2, unsigned in n)
+char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
 	char *strDup;
 	int i;
