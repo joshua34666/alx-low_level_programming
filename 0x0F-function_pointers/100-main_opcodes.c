@@ -3,7 +3,7 @@
 /**
  * main - check the code for ALX School students.
  * @argc: argument count
- * argv: argumen vector.
+ * @argv: argumen vector.
  *
  * Return: Always 0.
  */
