@@ -1,7 +1,10 @@
 #ifndef OPERATIONS
 #define OPERATIONS
+
+#include <stdlib.h>
+#include <stdio.h>
 /**
- * struct_op - struct op
+ * struct op - struct op
  * @op: The operator
  * @f: The function associated
  */
@@ -10,8 +13,7 @@ typedef struct op
 	{
 		char *op;
 		int (*f)(int y, int x);
-		op_t;
-	}
+	} op_t;
 
 	int op_add(int y, int x);
 	int op_sub(int y, int x);
