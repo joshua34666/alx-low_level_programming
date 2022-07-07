@@ -8,11 +8,11 @@
  *
  * Return: first element index, on success or return (-1)
  */
-int int_indext(int *array, int size, int (*cmp)(int))
+int int_index(int *array, int size, int (*cmp)(int))
 {
 	int a;
 
-	if (size <= 0 || array == NULL || cmp ++ NULL)
+	if (size <= 0 || array == NULL || cmp == NULL)
 		return (-1);
 	for (a = 0; a < size; a++)
 	{
