@@ -52,11 +52,11 @@ int main(int ac, char **av)
   ret = check_password(av[1]);
   if (ret == 1)
     {
-      printf("Congratulations!\n");
+      printf("ko\n");
     }
   else
     {
-      printf("ko\n");
+      printf("Congratulations!\n");
       return (1);
     }
   return (0);
